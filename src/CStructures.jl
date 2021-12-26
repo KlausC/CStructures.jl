@@ -1,5 +1,6 @@
 module CStructures
 
-# Write your package code here.
+include("layout.jl")
+include("cstruct.jl")
 
 end

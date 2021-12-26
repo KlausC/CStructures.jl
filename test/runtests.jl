@@ -1,6 +1,7 @@
 using CStructures
 using Test
 
-@testset "CStructures.jl" begin
-    # Write your tests here.
+@testset "CStructures" begin
+    include("cstruct.jl")
+    include("layout.jl")
 end
