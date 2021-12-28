@@ -1,5 +1,6 @@
 
 export Caccessor, CStruct, CVector, CStructAccess, CStructGuarded
+export default_type, default_value, construct
 
 import Base: length, size, pointer, show, unsafe_convert, Fix1
 import Base: propertynames, getproperty, setproperty!, getindex, setindex!
